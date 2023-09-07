@@ -134,7 +134,6 @@ body {
 }
 
 .col-2 {
-    padding: 10px;
     flex-basis: calc((100% * 2) / 12 );
 }
 
@@ -173,4 +172,30 @@ body {
 .mute {
     font-size: 12px;
     font-weight: 500;
+}
+
+.container-center-tools {
+    text-align: center;
+    margin-top: -24px;
+}
+
+.center-tools {
+    display: inline-block;
+    padding: 10px;
+    min-height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.arrow-center-tool {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+.screen {
+    color: #4bc800;
 }
