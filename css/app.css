@@ -26,12 +26,10 @@ body {
 
 .debug .main-container {
     border: 2px solid black;
-    padding: 30px;
 }
 
 .debug .webcam-container {
     border: 2px solid red;
-    padding: 30px;
 }
 
 .debug .webcam {
@@ -44,10 +42,14 @@ body {
 
 .main-container {
     min-height: 70vh;
+    padding: 30px;
+    position: relative;
+    background-color: black;
 }
 
 .webcam-container {
     min-height: 50vh;
+    padding: 30px;
 }
 
 .webcam {
@@ -72,4 +74,23 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/* Speaker view */
+
+.speaker-view,
+.speaker-view-1 {
+    font-size: 12px;
+    padding: 5px 8px;
+    color: white;
+    background-color: #68737f;
+    opacity: 0.7;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.speaker-view {
+    margin-right: 30px;
 }
