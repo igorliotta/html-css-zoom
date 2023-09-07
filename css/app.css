@@ -16,3 +16,44 @@ a {
 ul, ol, menu {
     list-style: none;
 }
+
+body {
+    width: 100%;
+}
+
+/* DEBUG */
+
+
+.debug .main-container {
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.debug .webcam-container {
+    border: 2px solid red;
+    padding: 30px;
+}
+
+.debug .webcam {
+    border: 2px solid violet;
+    padding: 30px;
+}
+
+
+
+/* Prima sezione */
+
+.main-container {
+    min-height: 70vh;
+}
+
+.webcam-container {
+    min-height: 50vh;
+}
+
+.webcam {
+    display: inline-block;
+    width: calc((100% - 30px) / 7);
+    height: 120px;
+    
+}
