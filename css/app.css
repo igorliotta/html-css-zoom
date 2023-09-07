@@ -111,7 +111,7 @@ body {
     background-color: #68737f;
     opacity: 0.7;
     border-radius: 25px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
 }
@@ -189,7 +189,7 @@ body {
 
 .center-tools {
     display: inline-block;
-    padding: 10px;
+    padding-right: 10px;
     min-height: 50px;
     color: white;
     font-size: 20px;
