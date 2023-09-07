@@ -144,6 +144,9 @@ body {
 
 .tool-container {
     text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .tool-row {
@@ -172,6 +175,11 @@ body {
 .mute {
     font-size: 12px;
     font-weight: 500;
+    display: inline-block;
+}
+
+.tools {
+    position: relative;
 }
 
 .container-center-tools {
@@ -198,4 +206,15 @@ body {
 
 .screen {
     color: #4bc800;
+}
+
+.meeting {
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    background-color: #4a4a4a;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
