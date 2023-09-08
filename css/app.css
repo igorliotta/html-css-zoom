@@ -43,7 +43,6 @@ body {
 
 .debug .row {
     border: 2px solid orange;
-    padding: 10px;
 }
 
 .debug .col-2,
@@ -53,12 +52,10 @@ body {
 
 .debug .tool-container {
     border: 2px solid lightblue;
-    padding: 10px;
 }
 
 .debug .tool-row {
     border: 2px solid yellow;
-    padding: 10px;
 }
 
 
@@ -67,6 +64,7 @@ body {
 
 .main-container {
     min-height: 70vh;
+    overflow: hidden;
     padding: 30px;
     position: relative;
     background-color: black;
@@ -153,6 +151,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    color: white;
 }
 
 .col-2-t {
@@ -166,6 +165,7 @@ body {
 
 .arrow {
     font-size: 14px;
+    color: white;
     position: absolute;
     line-height: 50px;
     top: 0;
@@ -173,13 +173,15 @@ body {
 }
 
 .mute {
-    font-size: 12px;
+    font-size: 14px;
+    color: white;
     font-weight: 500;
     display: inline-block;
 }
 
 .tools {
     position: relative;
+    flex-shrink: 0;
 }
 
 .container-center-tools {
