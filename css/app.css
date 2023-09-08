@@ -63,16 +63,15 @@ body {
 /* Prima sezione */
 
 .main-container {
-    min-height: 70vh;
-    overflow: hidden;
     padding: 30px;
     position: relative;
     background-color: black;
 }
 
 .webcam-container {
-    min-height: 50vh;
+    max-height: 100vh;
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 .webcam {
@@ -121,7 +120,8 @@ body {
 /* Toolbar */
 
 .toolbar-container {
-    min-height: 80vh;
+    max-height: 100vh;
+    overflow: hidden;
     padding: 10px;
     background-color: #222222;
 }
